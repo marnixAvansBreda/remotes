@@ -2,4 +2,4 @@ language: php
 php:
   - nightly
 script:
-    - ./vendor/bin/phpunit --bootstrap vendor/autoload.php tests/EmailTest
+    - vendor/bin/phpunit --bootstrap vendor/autoload.php tests/EmailTest
